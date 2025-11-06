@@ -6,13 +6,13 @@ import React from 'react';
 
 export default function SignIn() {
 	return (
-		<div className="flex h-full bg-black">
-			<div className="w-1/2 h-full flex items-center justify-center text-white">
-				<h1 className="text-8xl max-w-lg text-center">
+		<div className="flex h-full">
+			<div className="hidden w-1/2 h-full sm:flex items-center justify-center bg-black text-white">
+				<h1 className="sm:text-7xl lg:text-8xl max-w-lg text-center">
 					Finance Tracker
 				</h1>
 			</div>
-			<div className="w-1/2 h-full flex items-center justify-center bg-white">
+			<div className="w-full sm:w-1/2 h-full flex items-center justify-center bg-white">
 				<div className="w-lg flex flex-col items-center justify-center px-5">
 					<div className="p-4">
 						<h2 className="text-3xl">Inicia sesión</h2>
